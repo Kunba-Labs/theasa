@@ -142,7 +142,7 @@ Restart=always
 WantedBy=default.target
 ```
 
-With the `PATH` line, the server finds `claude` and `codex` for the summaries.
+With the `PATH` line, the server can run `claude` and `codex` for the summaries.
 Put the port and bind address in `~/.theasa/config.json` (see [Configure](#configure)). Start the service:
 
 ```sh
