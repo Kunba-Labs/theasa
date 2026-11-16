@@ -1,4 +1,12 @@
-# Theasa
+<p align="center">
+  <img src="design/icon/icon-512.png" width="112" alt="Theasa icon">
+</p>
+
+<h1 align="center">Theasa</h1>
+
+<p align="center">
+  The server behind the Theasa tab of <a href="https://github.com/Kunba-Labs/sidra">Sidra</a> for iPad and iPhone.
+</p>
 
 Theasa records the Claude Code and Codex turns on your machines. A hook sends each finished turn to a small Bun server.
 For each project you get a log of the turns: a summary, the decisions, the open items to check, and the tokens and time.
