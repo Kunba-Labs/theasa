@@ -1,0 +1,23 @@
+node_modules/
+*.log
+
+# local agent notes and secrets
+.claude/
+.env
+.env.*
+*.pem
+*.key
+token
+
+# data (the server keeps it in ~/.theasa, never here)
+*.db
+*.db-shm
+*.db-wal
+spool/
+
+# scan output
+slopo.db
+slopo-report/
+slopo.ignore.txt
+report/
+.jscpd/

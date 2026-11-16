@@ -1,0 +1,13 @@
+{
+  "name": "theasa",
+  "version": "0.1.0",
+  "description": "Records every Claude Code and Codex turn and serves summaries to the Sidra app",
+  "license": "Apache-2.0",
+  "private": true,
+  "repository": "github:Kunba-Labs/theasa",
+  "bin": { "theasa": "./theasa.ts" },
+  "scripts": {
+    "start": "bun theasa.ts serve",
+    "test": "bun test"
+  }
+}
